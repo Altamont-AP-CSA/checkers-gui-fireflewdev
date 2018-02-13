@@ -11,6 +11,7 @@ import javax.swing.JPanel;
  *
  * IM SORRY I DIGRESSED FROM THE ORIGINAL CODE A BIT:
  * - I revised board to make it an int[][] so that it can hold empty squares (0), red checkers (1), or black checkers (2)
+ * - I also made it so that if you click on a checker it highlights it (:
  * - I took any logic out of the paint method and put the logic in the appropriate places on in the click function.
  * - Thus most of the implementation of the stuff required is in the clicked method, not the paint method where all your comments are.
  */
